@@ -11,7 +11,7 @@ math: true
 
 <!-- overview -->
 
-Kubernetesでは、_HorizontalPodAutoscaler_ は自動的にワークロードリソース({{< glossary_tooltip text="Deployment" term_id="deployment" >}}や{{< glossary_tooltip text="StatefulSet" term_id="statefulset" >}}など)を更新し、需要に合わせて自動的にスケーリングすることを目指します。
+Kubernetesでは、_HorizontalPodAutoscaler_ が自動的にワークロードリソース({{< glossary_tooltip text="Deployment" term_id="deployment" >}}や{{< glossary_tooltip text="StatefulSet" term_id="statefulset" >}}など)を更新し、需要に合わせて自動的にスケーリングすることを目指します。
 
 水平スケーリングとは、負荷の増加に対応するために、より多くの{{< glossary_tooltip text="Pod" term_id="pod" >}}をデプロイすることを意味します。
 これは、Kubernetesの場合、既に稼働しているワークロードのPodに対して、より多くのリソース(例: メモリーやCPU)を割り当てることを意味する _垂直_ スケーリングとは異なります。
